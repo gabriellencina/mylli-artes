@@ -1,10 +1,9 @@
 :root {
-    --primary: #f2b705;
+    --primary: #f2cb05;
     --secondary: #62bf04;
     --tertiary: #400101;
     --text-primary: #000;
     --text-secondary: #f2edd0;
-    --text-tertiary: #f2cb05;
 }
 
 * {
@@ -18,7 +17,7 @@
     position: fixed;
     width: 1.6em;
     height: 1.5em;
-    bottom: 2em;
+    bottom: 0.3em;
     right: 1em;
     background-color: #25d366;
     color: #fff;
@@ -56,8 +55,9 @@
     align-items: center;
 }
 
-.fw-bold {
+h1.fw-bold {
     color: var(--primary);
+    font-family:  'Montserrat', Helvetica, sans-serif;
 }
 
 p {
@@ -73,3 +73,40 @@ p {
     text-decoration: none;
     color: #000 !important;
 }
+
+/* Sessão de produtos */
+h1.fw-bolder {
+    color: #000 !important;
+}
+
+p.p-produtos {
+    color: #000 !important;
+}
+
+h1.produtos {
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+    margin: auto;
+}
+
+p.descrição-produtos {
+    padding: 1em;
+    text-align: initial;
+}
+
+section#produtos {
+    background-color: var(--primary);
+}
+
+.card {
+    background-color: var(--text-primary) !important;
+    margin-top: 1em;
+}
+
+.produto {
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 2em;
+    height: 25em;
+}
+
