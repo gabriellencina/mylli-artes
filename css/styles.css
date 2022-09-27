@@ -1,5 +1,5 @@
 :root {
-    --primary: #f2cb05;
+    --primary: rgb(242, 203, 5);
     --secondary: #62bf04;
     --tertiary: #400101;
     --text-primary: #000;
@@ -11,6 +11,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 
 /* Botão wpp */
 .wpp-link {
@@ -38,6 +40,11 @@
 }
 
 /* Navbar */
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 .logonavbar {
     width: 100%;
     height: 3em;
@@ -50,7 +57,7 @@
     url("../img/inicio-mylli.jpeg");
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 105vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -115,3 +122,22 @@ section#produtos {
     height: 25em;
 }
 
+/*Sessão de artesanatos */
+#artesanatos {
+    background-color: var(--secondary);
+    
+    
+}
+section#artesanatos p,
+h1 {
+    color: var(--text-primary);
+}
+
+#carouselExampleIndicators {
+    padding: 1em;
+    bottom: 2em;
+}
+
+div#carouselExampleIndicators img {
+    border-radius: 0.5em;
+}
