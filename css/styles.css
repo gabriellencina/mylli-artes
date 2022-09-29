@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(242, 203, 5);
+    --primary: #f2cb05;
     --secondary: #62bf04;
     --tertiary: #400101;
     --text-primary: #000;
@@ -19,7 +19,7 @@
     position: fixed;
     width: 1.6em;
     height: 1.5em;
-    bottom: 0.1em;
+    bottom: 0.6em;
     right: 1em;
     background-color: #25d366;
     color: #fff;
@@ -128,9 +128,9 @@ section#produtos {
     
     
 }
-section#artesanatos p,
-h1 {
-    color: var(--text-primary);
+section#artesanatos p, h1, h2 {
+    color: var(--tertiary);
+    font-weight: 380;
 }
 
 #carouselExampleIndicators {
@@ -140,4 +140,20 @@ h1 {
 
 div#carouselExampleIndicators img {
     border-radius: 0.5em;
+}
+
+.img-artesanato {
+    height: 22em;
+    border-radius: 11em;
+    width: 100%;
+    padding: 0.5em;
+}
+
+button.btn-artesanato {
+    background-color: var(--tertiary) !important;
+}
+
+a.a-pedido-artesanato {
+    color: #ffffff;
+    text-decoration: none;
 }
